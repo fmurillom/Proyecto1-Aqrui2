@@ -1,0 +1,72 @@
+Ins: P0:0 read 2 1
+Reading block 2 from Memory with data 0
+Ins: P0:1 read 1 1
+Reading block 1 from Memory with data 0
+Ins: P1:0 calc 0 0
+Ins: P1:1 read 15 1
+Reading block 15 from Memory with data 0
+Ins: P0:0 read 12 1
+Reading block 12 from Memory with data 0
+Ins: P0:1 write 3 55001
+Reading block 3 from Memory with data 0
+Write Miss detected for 3 address in P0:1
+Writing 55001 value into block 3 on P0:1 L1
+Updating 3 on P0 L2
+Ins: P1:1 read 11 1
+Reading block 11 from Memory with data 0
+Ins: P1:0 write 11 49929
+Reading shared block 11 from P1:1 with data 0
+Setting 11 adress as shared on P0:1 and P1:1
+Setting 11 adress as shared on P0:1 and P1:1
+Writing 49929 value into block 11 on P1:0 L1
+Updating 11 on P1 L2
+Ins: P0:0 calc 0 0
+Ins: P0:1 read 1 1
+Swapping block 1 of P0:1 L1, writing value 55001 into memory block 3
+Reading block 1 from Memory with data 0
+Setting 11 adress as shared on P0:1 and P1:1
+Ins: P1:0 read 14 1
+Reading block 14 from Memory with data 0
+Setting 11 adress as shared on P0:1 and P1:1
+Ins: P1:1 calc 0 0
+Ins: P0:0 read 15 1
+Swapping block 1 of P0:0 L1, writing value 0 into memory block 15
+Reading shared block 15 from P1:1 with data 0
+Setting 15 adress as shared on P0:0 and P1:1
+Setting 11 adress as shared on P0:1 and P1:1
+Setting 15 adress as shared on P0:0 and P1:1
+Ins: P0:1 calc 0 0
+Ins: P1:1 read 3 1
+Swapping block 1 of P1:1 L1, writing value 0 into memory block 3
+Reading block 3 from Memory with data 55001
+Setting 15 adress as shared on P0:0 and P1:1
+Setting 15 adress as shared on P0:0 and P1:1
+Ins: P1:0 read 12 1
+Swapping block 1 of P1:0 L1, writing value 0 into memory block 12
+Reading block 12 from Memory with data 0
+Setting 15 adress as shared on P0:0 and P1:1
+Setting 15 adress as shared on P0:0 and P1:1
+Ins: P1:1 read 14 1
+Swapping block 0 of P1:1 L1, writing value 0 into memory block 14
+Reading block 14 from Memory with data 0
+Ins: P0:0 write 5 19578
+Swapping block 0 of P0:0 L1, writing value 0 into memory block 5
+Reading block 5 from Memory with data 0
+Write Miss detected for 5 address in P0:0
+Writing 19578 value into block 5 on P0:0 L1
+Updating 5 on P0 L2
+Ins: P1:0 calc 0 0
+Ins: P0:1 calc 0 0
+Ins: P1:1 write 16 11591
+Swapping block 1 of P1:1 L1, writing value 55001 into memory block 16
+Reading block 16 from Memory with data 0
+Write Miss detected for 16 address in P1:1
+Writing 11591 value into block 16 on P1:1 L1
+Updating 16 on P1 L2
+Ins: P0:0 calc 0 0
+Ins: P1:0 read 4 1
+Swapping block 0 of P1:0 L1, writing value 49929 into memory block 4
+Reading block 4 from Memory with data 0
+Ins: P0:1 read 3 1
+Swapping block 1 of P0:1 L1, writing value 0 into memory block 1
+Reading block 3 from Memory with data 55001
